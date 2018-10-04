@@ -1,0 +1,14 @@
+1-	Descargar Composer de https://getcomposer.org/download/ y dar next, next a la configuración.
+
+2-	Verificar si se instaló correctamente mediante cmd tecleado composer y debe de aparecer la lista de comandos disponibles, composer sirve para instalar dependencias, librerias para php facilmente 
+
+3-	Abrir mediante gitbash o cualquier otra consola la carpeta htdocs y crear antes de eso una carpeta llamada Symphony abrir esa carpeta, luego ejecutar el comando composer create-project symfony/website-skeleton my_project
+
+4-	Luego de que las instalaciones terminen entrar en la carpeta del proyecto crado y ejecutar el comando  php -S 127.0.0.1:8000 -t public // require composer server --dev // /bin/console server:run esto para que nos otorgue el puerto del localhost en donde la pagina correra
+
+    4 .1- para volver a levantar el servidor ejecutar el siguiente comando dentro de la carpeta del proyecto php -S 127.0.0.1:8000 -t public
+
+
+5-	Entrar en el localhost:8000 y veremos la pagina principal funcionando
+
+6-	Para determinar si la pagina posee todas las configuraciones correctamente entramos a la dirección localhost:8000/config.php
