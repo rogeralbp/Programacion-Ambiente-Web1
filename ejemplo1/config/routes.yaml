@@ -1,0 +1,13 @@
+app_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
+
+
+app_article_homepage:
+    path: /article/homepage
+    controller: App\Controller\ArticleController::homepage
+
+
+app_article_show:
+    path: /article/show
+    controller: App\Controller\ArticleController::show
