@@ -1,6 +1,3 @@
-/* ------------------------------------ Click on login and Sign Up to  changue and view the effect
----------------------------------------
-*/
 
 function cambiar_login() {
 
@@ -18,8 +15,8 @@ function cambiar_login() {
   
   function cambiar_sign_up(at) {
     
-        document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_sign_up";
-        document.querySelector('.cont_form_sign_up').style.display = "block";
+      document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_sign_up";
+      document.querySelector('.cont_form_sign_up').style.display = "block";
       document.querySelector('.cont_form_login').style.opacity = "0";
         
       setTimeout(function(){  document.querySelector('.cont_form_sign_up').style.opacity = "1";
