@@ -7,6 +7,9 @@
     <title>Soda Doña Ana</title>
      <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+     <link rel="stylesheet" type="text/css" href="css/demo.css" />
+     <link rel="stylesheet" type="text/css" href="css/set1.css" />
 </head>
 <body>
     
@@ -20,7 +23,36 @@
           </ul>
         </div>
     </nav>
-      
+
+    <div class="content">
+        <div class="grid">
+            <figure class="effect-lily">
+                <img src="imgs/burger.jpg" alt="img12"/>
+                <figcaption>
+                    <div>
+                        <h2>Menu</h2>   
+                    </div>
+                </figcaption>			
+            </figure>
+        </div>
+    
+        <div class="grid">
+            <figure class="effect-sadie">
+                <img src="imgs/burger2.jpg" alt="img02"/>
+                <figcaption>
+                    <h3>Express Service</h3>
+                    
+                </figcaption>			
+            </figure>
+        </div>
+    
+        <script>
+            // For Demo purposes only (show hover effect on mobile devices)
+            [].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+                el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+            } );
+        </script>
+          
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
