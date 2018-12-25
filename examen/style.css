@@ -1,0 +1,41 @@
+.container{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 100px red;
+}
+.wizards{
+    overflow: hidden; 
+    position: relative; 
+    margin-top: 20px;
+}
+
+.form-wizard{
+    position: relative; 
+    float: left; 
+    width: 20%; 
+    padding: 0 5px; 
+    text-align: center;
+}
+
+.form-wizard p { 
+    color: black; 
+}
+.form-wizard.activated p { 
+    color: green; 
+}
+.form-wizard.active p { 
+    color: blue; 
+}
+
+
+fieldset { 
+    display: none; 
+    text-align: left; 
+}
+.wizard-buttons { 
+    text-align: right; 
+}
+
+.input-error { 
+    border-color: red; 
+}
